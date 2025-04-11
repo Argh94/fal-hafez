@@ -1,0 +1,119 @@
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 20px;
+  direction: rtl;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3rem; /* 48px */
+  color: #3b2f2f;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.prayer {
+  font-size: 1.25rem; /* 20px */
+  color: #5c4033;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.fal-button {
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.25rem; /* 20px */
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.fal-button:hover {
+  background-color: #a67b5b;
+  transform: scale(1.1);
+}
+
+.fal-result {
+  margin-top: 30px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.fal-result.show {
+  opacity: 1;
+}
+
+.fal-result h2 {
+  font-size: 2rem; /* 32px */
+  color: #3b2f2f;
+  margin-bottom: 15px;
+}
+
+.fal-result p {
+  font-size: 1.125rem; /* 18px */
+  color: #5c4033;
+  line-height: 1.8;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.share-button {
+  background-color: #4a7043;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem; /* 16px */
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.share-button:hover {
+  background-color: #5e8c56;
+}
+
+/* تنظیمات برای موبایل */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2rem; /* 32px */
+  }
+  .prayer {
+    font-size: 1rem; /* 16px */
+  }
+  .fal-button {
+    font-size: 1rem; /* 16px */
+    padding: 12px 20px;
+  }
+  .fal-result h2 {
+    font-size: 1.5rem; /* 24px */
+  }
+  .fal-result p {
+    font-size: 0.875rem; /* 14px */
+  }
+  .share-button {
+    font-size: 0.875rem; /* 14px */
+    padding: 8px 20px;
+  }
+}
