@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Vazir', sans-serif;
+    background-image: url('https://i.imgur.com/8zV6Z3Z.jpg'); /* تصویر پس‌زمینه اسلیمی */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* پس‌زمینه سفید با شفافیت */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #D81B60; /* رنگ زرشکی */
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #1E88E5; /* فیروزه‌ای */
+    border-radius: 5px;
+    font-family: 'Vazir', sans-serif;
+    font-size: 1em;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #1E88E5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Vazir', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #1565C0;
+}
+
+.fal-btn {
+    padding: 15px 30px;
+    background-color: #FDD835; /* طلایی */
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.fal-btn:hover {
+    background-color: #FBC02D;
+    transform: scale(1.05);
+}
+
+#poem {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ریسپانسیو برای گوشی */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .fal-btn {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+
+    #searchInput {
+        width: 60%;
+    }
+}
