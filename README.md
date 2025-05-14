@@ -1,5 +1,7 @@
 # فال حافظ
 
+![Visitor Count](https://komarev.com/ghpvc/?username=Argh94&repo=fal-hafez&label=ProfileViews)
+
 ![فال حافظ](https://via.placeholder.com/800x200.png?text=فال+حافظ) <!-- در صورت وجود تصویر بنر، لینک آن را جایگزین کنید -->
 
 **فال حافظ** یک پروژه وب ساده و جذاب است که به کاربران امکان می‌دهد فال حافظ بگیرند و غزلیات زیبای حافظ را به همراه تفسیر بخوانند. این پروژه با استفاده از HTML، CSS و JavaScript ساخته شده و به صورت استاتیک روی GitHub Pages میزبانی می‌شود.
